@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corVerde"
+    tools:context="com.example.user.appagenda.AuxiliarActivity">
+
+
+    <Button
+        android:id="@+id/btAgendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginTop="86dp"
+        android:text="Ir" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:text="Agendar Compromisso: "
+        android:textSize="20dp"
+        android:textColor="@color/corBranca"
+        android:layout_alignBaseline="@+id/btAgendar"
+        android:layout_alignBottom="@+id/btAgendar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="133dp"
+        android:text="Ver Compromissos: "
+        android:textSize="20dp"
+        android:textColor="@color/corBranca"
+        android:layout_below="@+id/btAgendar"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btAgendar"
+        android:layout_alignStart="@+id/btAgendar"
+        android:layout_below="@+id/btAgendar"
+        android:layout_marginTop="123dp"
+        android:text="Ir" />
+</RelativeLayout>

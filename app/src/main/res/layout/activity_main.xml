@@ -4,6 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/corVerde"
     tools:context="com.example.user.appagenda.MainActivity">
+
+
+    <EditText
+        android:id="@+id/tlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:ems="15"
+        android:hint="E-mail"
+        android:background="@color/corBranca"
+        android:textColorHint="@color/corVerde"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/tsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tlogin"
+        android:layout_alignRight="@+id/tlogin"
+        android:layout_below="@+id/tlogin"
+        android:layout_marginTop="98dp"
+        android:ems="15"
+        android:hint="Senha"
+        android:background="@color/corBranca"
+        android:textColorHint="@color/corVerde"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btacesso"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tsenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="@color/corBranca"
+        android:text="Entrar"
+        android:textColor="@color/corVerde" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:background="@color/corVerde"
+        android:textColor="@color/corBranca"/>
 
 </RelativeLayout>

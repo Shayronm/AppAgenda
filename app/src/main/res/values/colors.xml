@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#000001</color>
+    <color name="colorPrimaryDark">#000002</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="corAzulClaro">#003399</color>
+    <color name="corPreta">#000000</color>
+    <color name="corBranca">#ffffff</color>
+    <color name="corVerde">#99cc66</color>
+    <color name="corAzulEscuro">#000033</color>
+    <color name="corVermelha">#ff3333</color>
 </resources>
