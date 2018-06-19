@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.user.appagenda.CompromissoActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/ctTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="51dp"
+        android:ems="15"
+        android:hint="Tipo"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/ctDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/ctTipo"
+        android:layout_alignStart="@+id/ctTipo"
+        android:layout_below="@+id/ctTipo"
+        android:layout_marginTop="31dp"
+        android:ems="15"
+        android:hint="Descrição"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/ctData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ctDescricao"
+        android:layout_alignStart="@+id/ctDescricao"
+        android:layout_below="@+id/ctDescricao"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="Data"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/ctHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ctData"
+        android:layout_alignStart="@+id/ctData"
+        android:layout_below="@+id/ctData"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Hora"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="Salvar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

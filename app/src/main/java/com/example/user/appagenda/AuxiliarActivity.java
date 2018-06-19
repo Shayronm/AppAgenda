@@ -21,7 +21,7 @@ public class AuxiliarActivity extends AppCompatActivity {
         btAgendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(AuxiliarActivity.this, CompromissoActivity.class);
+                Intent i = new Intent(AuxiliarActivity.this,CompromissoActivity.class);
                 startActivity(i);
             }
         });

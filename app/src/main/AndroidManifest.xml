@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".AuxiliarActivity" />
         <activity android:name=".CompromissoActivity" />
-        <activity android:name=".ListaActivity"></activity>
+        <activity android:name=".ListaActivity" />
     </application>
 
 </manifest>
