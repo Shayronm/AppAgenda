@@ -22,13 +22,14 @@ public class AuxiliarActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(AuxiliarActivity.this,CompromissoActivity.class);
+                i.putExtra("situacao","inserir");
                 startActivity(i);
             }
         });
 
         btLista.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent i = new Intent(AuxiliarActivity.this, ListaActivity.class);
                 startActivity(i);
             }

@@ -27,7 +27,7 @@ public class ListaActivity extends AppCompatActivity {
 
         final Metodo c = new Metodo(getBaseContext());
         cursor = c.Lista();
-        String[] campos = new String[]{"nome", "data", "hora", "tipo", "descricao"};
+        String[] campos = new String[]{"data", "hora", "tipo", "descricao"};
         int[] idViews = new int[]{R.id.data, R.id.hora, R.id.tipo, R.id.descricao};
 
         SimpleCursorAdapter ad = new SimpleCursorAdapter(getBaseContext(), R.layout.activity_layout, cursor, campos, idViews, 0);
